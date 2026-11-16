@@ -28,4 +28,6 @@
 2. 在能正常下载锁定依赖的环境执行 `npm ci`、`npm run build`、`npm run preview`。继续核对完整联系页并检查链接目标。整站构建、实际部署版本和 RFQ 后端接单尚未验收。
 3. 现有部署工作流只监听 `main` 推送及手动调度。本次只写独立分支并创建 Draft PR，未调度部署，也未合并。
 
-PR：[查看此分支的拉取请求](https://github.com/hosonzuo8848/cosmetics-website/pulls?q=is%3Apr%20head%3Acodex%2Ftask-001-rfq-audit)。
+PR：[Draft PR #1](https://github.com/hosonzuo8848/cosmetics-website/pull/1)。
+
+审核回读：从 GitHub 逐项读取 PR 差异与六份代码和测试文件，内容均与测试工作树一致。复跑四项回归通过。变更解决无接收端表单造成的询盘入口断点，整站构建和真实接单保持待验。

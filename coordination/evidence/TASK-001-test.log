@@ -1,0 +1,12 @@
+✔ en contact links to the official RFQ page (2.4034ms)
+✔ id contact links to the official RFQ page (0.7633ms)
+✔ zh contact links to the official RFQ page (0.7385ms)
+✔ the shared inquiry link is a native anchor with localized text (2.0819ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 388.8999

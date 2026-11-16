@@ -1,0 +1,17 @@
+---
+import type { Locale } from '../i18n/utils';
+import { rfq } from '../i18n/rfq.mjs';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const copy = rfq[locale];
+---
+
+<section class="bg-white rounded-2xl border border-gray-100 p-8" aria-labelledby="contact-inquiry-title">
+  <h2 id="contact-inquiry-title" class="text-2xl font-semibold text-brand-dark mb-4">{copy.title}</h2>
+  <p class="text-gray-600 mb-6">{copy.description}</p>
+  <a href={copy.href} class="btn-primary w-full text-base py-4 text-center">{copy.action}</a>
+</section>
